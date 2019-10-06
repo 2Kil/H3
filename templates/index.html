@@ -8,7 +8,7 @@
 
 {% for video in data %}
 
-    <a href="{{ video.fields.video_url }}" referrerPolicy="no-referrer"><img src="{{ video.fields.gif_url }}" alt=""></a>
+    <a href="{{ video.fields.video_url }}" referrerPolicy="no-referrer" target="_blank"><img src="{{ video.fields.gif_url }}" alt=""></a>
     <p>{{ video.fields.title }}</p>
     <p>{{ video.fields.nickname }}</p><br><br><br><br>
 
