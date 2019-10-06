@@ -81,8 +81,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'h3',
         'USER': 'root',
-        'PASSWORD': 'spider,./',
-        'HOST': 'mix.cx',
+        'PASSWORD': 'root',
+        'HOST': '0.0.0.0',
         'PORT': '3306'
     }
 }
