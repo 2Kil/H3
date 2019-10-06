@@ -25,7 +25,7 @@ SECRET_KEY = 'h%0s73ge7ddzf$cwzg6)xvdh7^3n!8etdv#5z#%&=#918av4!!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,8 +81,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'h3',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'spider,./',
+        'HOST': 'mix.cx',
         'PORT': '3306'
     }
 }
