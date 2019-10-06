@@ -14,7 +14,6 @@ def index(request):
         'data':json_data
     }
     add_video()
-    add_video()
     return render(request,'index.html',context=context)
 
 def add_videos(request):
